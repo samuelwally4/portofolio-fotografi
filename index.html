@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Fotografer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Link untuk mengambil ikon sosial media (FontAwesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Letakkan Navbar tepat setelah tag <body> -->
+    <nav class="navbar">
+        <a href="#" class="nav-logo">Foto<span>Saya.</span></a>
+        <ul class="nav-links">
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#gallery">Galeri</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- Tambahkan id="home" pada header -->
+    <header id="home">
+        <h1>Samuel Robert | Fotografer</h1>
+        <p>Mengabadikan setiap momen menjadi cerita.</p>
+    </header>
+
+    <main>
+        <!-- Tambahkan id="gallery" pada section galeri -->
+        <section id="gallery" class="gallery">
+            <img src="images/foto1.jpg" alt="Karya Fotografi 1" class="gallery-img">
+            <!-- ... sisa foto lainnya ... -->
+        </section>
+    </main>
+
+    <!-- Tambahkan id="contact" pada footer -->
+    <footer id="contact">
+        <!-- ... kode footer sebelumnya ... -->
+    </footer>
+    <header>
+        <h1>Samuel Robert | Fotografer</h1>
+        <p>Mengabadikan setiap momen menjadi cerita.</p>
+    </header>
+
+    <main>
+        <section class="gallery">
+            <!-- Ganti src dengan nama file foto Anda yang ada di folder images -->
+            <img src="images/foto1.jpg" alt="Karya Fotografi 1" class="gallery-img">
+            <img src="images/foto2.jpg" alt="Karya Fotografi 2" class="gallery-img">
+            <img src="images/foto3.jpg" alt="Karya Fotografi 3" class="gallery-img">
+            <img src="images/foto4.jpg" alt="Karya Fotografi 4" class="gallery-img">
+        </section>
+    </main>
+    <!-- ... kode </main> sebelumnya ... -->
+        
+        <footer>
+            <h2>Mari Bekerja Sama</h2>
+            <p>Tertarik dengan karya saya? Hubungi saya untuk sesi foto atau kolaborasi.</p>
+            
+            <div class="social-links">
+                <!-- Ganti link href dengan username/nomor Anda -->
+                <a href="https://instagram.com/yauww.photo" target="_blank" class="social-btn instagram">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
+                
+                <!-- Format nomor WA: gunakan kode negara (62) tanpa angka 0 di depan -->
+                <a href="https://wa.me/6285243837826" target="_blank" class="social-btn whatsapp">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+                
+                <a href="mailto:046galery@gmail.com" class="social-btn email">
+                    <i class="fas fa-envelope"></i> Email
+                </a>
+            </div>
+            
+            <p class="copyright">&copy; 2026 Samuel Robert. All rights reserved.</p>
+        </footer>
+
+        <!-- <div id="lightbox" class="hidden"> ... -->
+    <div id="lightbox" class="hidden">
+        <span id="close-btn">&times;</span>
+        <img id="lightbox-img" src="" alt="Perbesar Foto">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
